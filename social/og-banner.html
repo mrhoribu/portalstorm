@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<!-- Source for docs/images/og-banner.png. Screenshot at exactly 1200x630. -->
+<!-- Source for docs/images/og-banner.png. Serve the repo root, open this at exactly 1200x630, screenshot. -->
 <html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0}
 html,body{width:1200px;height:630px;overflow:hidden}
-body{background:#f4f4f4 url(../docs/assets/css/images/bg.png);font-family:'Open Sans',sans-serif;color:#555;position:relative}
-.bar{position:absolute;left:0;right:0;top:0;height:18px;background:#282828}
-.foot{position:absolute;left:0;right:0;bottom:0;height:86px;background:#282828;display:flex;align-items:center;justify-content:center;gap:26px}
-.foot img{width:58px;height:58px;object-fit:contain}
-.main{position:absolute;top:18px;bottom:86px;left:0;right:0;display:flex;align-items:center;gap:40px;padding:0 70px}
-.logo{width:420px;flex-shrink:0}
-h1{font-weight:700;font-size:74px;line-height:1.05;color:#444;letter-spacing:-.01em}
-p{font-weight:300;font-size:28px;line-height:1.4;color:#777;margin:18px 0 26px}
-.url{display:inline-block;font-weight:600;font-size:26px;color:#fff;padding:10px 26px;border-radius:8px;background:#43B3E0 linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.2))}
+body{background:#080914;background-image:radial-gradient(ellipse 700px 520px at 22% 42%,rgba(77,91,255,.38),transparent 65%),radial-gradient(ellipse 600px 400px at 100% 100%,rgba(67,179,224,.14),transparent 60%);font-family:Inter,sans-serif;color:#eceefe;position:relative}
+.main{position:absolute;top:0;bottom:110px;left:0;right:0;display:flex;align-items:center;gap:36px;padding:0 70px}
+.logo{width:360px;flex-shrink:0;filter:drop-shadow(0 0 40px rgba(77,91,255,.55))}
+.eyebrow{font-family:'Space Grotesk';font-weight:600;font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:#43b3e0;margin-bottom:14px}
+h1{font-family:'Space Grotesk';font-weight:700;font-size:68px;line-height:1.05;white-space:nowrap;letter-spacing:-.02em}
+.g{background:linear-gradient(100deg,#4d5bff,#7b86ff 45%,#b9bfff);-webkit-background-clip:text;background-clip:text;color:transparent}
+p{font-size:25px;line-height:1.45;color:#9ca2cc;margin:18px 0 0;max-width:620px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:110px;border-top:1px solid #23284f;background:rgba(16,18,42,.7);display:flex;align-items:center;justify-content:space-between;padding:0 70px}
+.badges{display:flex;gap:22px}
+.badges img{width:64px;height:64px;object-fit:contain}
+.url{font-weight:600;font-size:24px;color:#fff;padding:12px 28px;border-radius:999px;background:linear-gradient(135deg,#4d5bff,#6a4dff);box-shadow:0 8px 28px -6px rgba(77,91,255,.7)}
 </style></head><body>
-<div class="bar"></div>
 <div class="main">
   <img class="logo" src="../docs/images/storm.png" alt="">
   <div>
-    <h1>Portal Storm Gaming</h1>
-    <p>A casual group of gamers out to explore, conquer, and just outright have fun together.</p>
-    <span class="url">portalstorm.net</span>
+    <div class="eyebrow">Explore · Conquer · Have fun</div>
+    <h1><span class="g">Portalstorm</span><br>Gaming Community</h1>
+    <p>A casual group of gamers. No application process. Everyone is respected and welcomed.</p>
   </div>
 </div>
 <div class="foot">
-  <img src="../docs/images/starcitizen.png" alt=""><img src="../docs/images/diablo3.png" alt=""><img src="../docs/images/ark2.png" alt=""><img src="../docs/images/smite.png" alt=""><img src="../docs/images/rust.png" alt=""><img src="../docs/images/buadren-ac.png" alt="">
+  <div class="badges"><img src="../docs/images/starcitizen.png" alt=""><img src="../docs/images/diablo3.png" alt=""><img src="../docs/images/ark2.png" alt=""><img src="../docs/images/smite.png" alt=""><img src="../docs/images/rust.png" alt=""><img src="../docs/images/buadren-ac.png" alt=""></div>
+  <span class="url">portalstorm.net</span>
 </div>
 </body></html>
